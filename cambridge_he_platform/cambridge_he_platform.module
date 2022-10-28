@@ -1,0 +1,16 @@
+<?php
+
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\block\Entity\Block;
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_theme().
+ */
+
+function cambridge_he_platform_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'cambridge_he_platform/cambridge_heplatform';
+}
+  
+  

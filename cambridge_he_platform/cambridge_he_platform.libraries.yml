@@ -1,0 +1,16 @@
+cambridge_heplatform:
+  css:
+    theme:
+      css/hecustom.css: {}
+      //cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css: {}
+  js:
+    js/hecustom.js: {}
+    //cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js:  { type: external }
+  
+  dependencies: 
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+   
+

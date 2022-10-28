@@ -1,0 +1,17 @@
+cambridge_he_platform.import_csv:
+  path: '/admin/structure/cambridge_he_platform/import'
+  defaults:
+    _title: 'Upload CSV'
+    _form: '\Drupal\cambridge_he_platform\Form\CambridgeHEPlatformForm'
+  requirements:
+    _permission: 'Import form'
+
+cambridge_he_platform.ca_he_platform:
+  path: '/cambridge_he_platform/chkboxdata'
+  defaults:
+    _title: 'HePlatform checkbox data'
+    _controller: '\Drupal\cambridge_he_platform\Controller\HePlatformController::HeChkboxList'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE
